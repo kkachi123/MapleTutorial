@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{2985f20e-582a-48cf-8369-d0ce7334f1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CCharacter">
+      <UniqueIdentifier>{04b5fc47-e5d3-47fa-a20d-15c152f3ece0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr">
+      <UniqueIdentifier>{982291da-d959-4e60-be1e-7ac8b0440381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\inputMgr">
+      <UniqueIdentifier>{6c5291c2-1e17-467c-875d-d9c782e220b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define">
+      <UniqueIdentifier>{5c956d94-2147-464a-b0b0-3b219597f7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Skills">
+      <UniqueIdentifier>{16d33613-ae3f-4b8b-b3a2-a6ec00b70a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CCharacter\CPlayer">
+      <UniqueIdentifier>{e4b9b829-3367-47b6-9bec-7e09dd8f9d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CCharacter\Monster">
+      <UniqueIdentifier>{61f0a049-73f4-4219-bd1f-7f9c03fbb167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CCharacter\Monster\Snail1">
+      <UniqueIdentifier>{47d50fa2-dbed-48de-97fd-5aa9da3ff9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CCharacter\Monster\Snail2">
+      <UniqueIdentifier>{5f9e66a1-198e-4ed1-a725-dbf663de7e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CCharacter\Monster\MushMom">
+      <UniqueIdentifier>{0211322c-7116-4e89-8d32-94503e6b7a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\PlayManager">
+      <UniqueIdentifier>{6de4445d-75be-4178-879a-d0bd88170881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\ManagerSupport">
+      <UniqueIdentifier>{cc458b53-17e8-4b88-9158-d26c859b1115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\ManagerSupport\Camera">
+      <UniqueIdentifier>{428fa841-12d3-400f-a649-ced1472eaf82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\ManagerSupport\TileMap">
+      <UniqueIdentifier>{abee1b89-4bce-4700-b847-3e5e50ff4c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\SceneManager">
+      <UniqueIdentifier>{d7d26c4d-c66f-45b9-8a59-1af13b171127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\SoundManager">
+      <UniqueIdentifier>{96679228-ce03-4bda-a3e8-ae8e7d066ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\ToolManager">
+      <UniqueIdentifier>{c7c08de6-272b-462a-b7ea-8077e76d16e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\ToolManager\MonsterManager">
+      <UniqueIdentifier>{feefc7d4-9dd2-401f-b3c7-d2fd1ec0da3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\ToolManager\MapObject">
+      <UniqueIdentifier>{3a91625b-a9b3-444f-a0e1-e302e8edb2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\ManagerSupport\Billage">
+      <UniqueIdentifier>{475db272-f9ee-4e0c-9290-767a5badb896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CCharacter\CNPC">
+      <UniqueIdentifier>{de374c98-5a5c-4ca7-85ad-830d527c2c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Skills\FinalAttack">
+      <UniqueIdentifier>{6bfce1ba-d6bb-454e-ae3e-d0a4978897be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\effect">
+      <UniqueIdentifier>{9596ace6-4e8f-4936-b1da-33c9692d62a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MapleTileMap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharacter.h">
+      <Filter>Object\CCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Object\CCharacter\CPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>Object\CCharacter\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMgr.h">
+      <Filter>Mgr\inputMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="utill.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Mgr\ManagerSupport\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Mgr\ManagerSupport\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Snail1.h">
+      <Filter>Object\CCharacter\Monster\Snail1</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Object\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Snail2.h">
+      <Filter>Object\CCharacter\Monster\Snail2</Filter>
+    </ClInclude>
+    <ClInclude Include="MushMom.h">
+      <Filter>Object\CCharacter\Monster\MushMom</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectAnimation.h">
+      <Filter>Object\CCharacter\Monster\MushMom</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayManager.h">
+      <Filter>Mgr\PlayManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Mgr\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Mgr\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>Mgr\ToolManager\MonsterManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>Mgr\ToolManager\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Billage.h">
+      <Filter>Mgr\ManagerSupport\Billage</Filter>
+    </ClInclude>
+    <ClInclude Include="CNPC.h">
+      <Filter>Object\CCharacter\CNPC</Filter>
+    </ClInclude>
+    <ClInclude Include="FinalAttack.h">
+      <Filter>Object\Skills\FinalAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="levelUp.h">
+      <Filter>Object\effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MapleTileMap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Object\CCharacter\CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMgr.cpp">
+      <Filter>Mgr\inputMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Mgr\ManagerSupport\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Mgr\ManagerSupport\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Snail1.cpp">
+      <Filter>Object\CCharacter\Monster\Snail1</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Object\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="Snail2.cpp">
+      <Filter>Object\CCharacter\Monster\Snail2</Filter>
+    </ClCompile>
+    <ClCompile Include="MushMom.cpp">
+      <Filter>Object\CCharacter\Monster\MushMom</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectAnimation.cpp">
+      <Filter>Object\CCharacter\Monster\MushMom</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayManager.cpp">
+      <Filter>Mgr\PlayManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Mgr\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Mgr\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>Mgr\ToolManager\MonsterManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>Object\CCharacter\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>Mgr\ToolManager\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Billage.cpp">
+      <Filter>Mgr\ManagerSupport\Billage</Filter>
+    </ClCompile>
+    <ClCompile Include="CNPC.cpp">
+      <Filter>Object\CCharacter\CNPC</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalAttack.cpp">
+      <Filter>Object\Skills\FinalAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="levelUp.cpp">
+      <Filter>Object\effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapleTileMap.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="MapleTileMap.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

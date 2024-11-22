@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapleTileMap", "MapleTileMap\MapleTileMap.vcxproj", "{20EC078B-9DB3-4D98-B313-90372B49ECAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7DC7B26C-E423-4C69-82DD-DE240A33B455}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20EC078B-9DB3-4D98-B313-90372B49ECAC}.Debug|x64.ActiveCfg = Debug|x64
+		{20EC078B-9DB3-4D98-B313-90372B49ECAC}.Debug|x64.Build.0 = Debug|x64
+		{20EC078B-9DB3-4D98-B313-90372B49ECAC}.Debug|x86.ActiveCfg = Debug|Win32
+		{20EC078B-9DB3-4D98-B313-90372B49ECAC}.Debug|x86.Build.0 = Debug|Win32
+		{20EC078B-9DB3-4D98-B313-90372B49ECAC}.Release|x64.ActiveCfg = Release|x64
+		{20EC078B-9DB3-4D98-B313-90372B49ECAC}.Release|x64.Build.0 = Release|x64
+		{20EC078B-9DB3-4D98-B313-90372B49ECAC}.Release|x86.ActiveCfg = Release|Win32
+		{20EC078B-9DB3-4D98-B313-90372B49ECAC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F57A45A-6569-49D3-BE25-FC83E9CDEEF0}
+	EndGlobalSection
+EndGlobal
